@@ -1,0 +1,57 @@
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carte{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+img{
+  width: 200px;
+}
+
+.date{
+  margin-bottom: 100px;
+}
+
+/* ------------------- Compteur -------------------*/
+
+.count{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.plus{
+  background-color: #EAEAEA;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+
+.plus:hover{
+  background-color: #38B000;
+  border: none;
+}
+
+.moins{
+  background-color: #EAEAEA;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+
+.moins:hover{
+  background-color: #A71E34;
+  border: none;
+}
